@@ -1,0 +1,37 @@
+            /* CLASSE  */
+            .cor_vermelha, h6 {
+                color: #f00;
+                text-decoration: underline;  
+            }
+
+
+            /* TAG */
+            h5, h1 {
+                background-color: aqua;
+            }
+
+
+            /* ID */
+            #titulo_preto {
+                background-color: black;
+                color: #ffff;
+                padding: 10px;
+            }
+
+            #paragrafo_principal {
+                background-color: salmon; 
+                padding: 10px;
+            }
+
+
+            #paragrafo_principal:hover {
+                background-color: red;
+                cursor: pointer;
+                color: #ffff;
+            }
+
+
+            #itens span:nth-child(3) {
+                background-color: brown ;
+                font-size: 20px;
+            }
